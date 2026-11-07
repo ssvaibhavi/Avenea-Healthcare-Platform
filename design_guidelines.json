@@ -1,0 +1,235 @@
+{
+  "theme_archetype": "Luxury Editorial Pink Healthcare (High-fashion editorial composition + empathetic community healthcare)",
+  "color_strategy": {
+    "philosophy": "A distinctly pink, warm, luxury-editorial visual atmosphere. Avoids cold clinical sterile grays, generic blue SaaS dashboards, and lavender tones. Warm blush, rose silk, cream champagne, deep plum brown for ultra-legible high-contrast editorial typography, and muted sage emerald as a soothing medical anchor.",
+    "is_pink_app": true
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#FFF7F9",
+        "on_bg": "#382B33",
+        "on_bg_muted": "#6E5A64",
+        "roles": {
+          "link": "#9B4E6B",
+          "error": "#9E2A2B",
+          "success": "#2D6A4F",
+          "accent_sage": "#3F6E5B"
+        }
+      },
+      {
+        "name": "blush_hero_bg",
+        "kind": "solid",
+        "bg": "#F8DDE6",
+        "on_bg": "#382B33",
+        "on_bg_muted": "#6E5A64",
+        "roles": {
+          "link": "#8A3C59",
+          "badge_text": "#542033"
+        }
+      },
+      {
+        "name": "card_panel_light",
+        "kind": "solid",
+        "bg": "#FFF8F6",
+        "on_bg": "#382B33",
+        "on_bg_muted": "#6E5A64",
+        "roles": {
+          "border": "#E8CAD4",
+          "highlight": "#DFA3B8"
+        }
+      },
+      {
+        "name": "card_panel_rose",
+        "kind": "solid",
+        "bg": "#F5D6E2",
+        "on_bg": "#382B33",
+        "on_bg_muted": "#624855",
+        "roles": {
+          "border": "#DDAEBf",
+          "pill_bg": "#FFF8F6"
+        }
+      },
+      {
+        "name": "glass_header",
+        "kind": "glass",
+        "contrast_against": "#F8DDE6",
+        "guarantee": "backdrop-blur-xl bg-[#FFF7F9]/85 border-b border-[#E8CAD4]/60 shadow-[0_4px_20px_rgba(223,163,184,0.15)]",
+        "on_bg": "#382B33",
+        "on_bg_muted": "#6E5A64",
+        "roles": {
+          "active_link": "#382B33",
+          "brand_mark": "#382B33"
+        }
+      },
+      {
+        "name": "editorial_dark_plum",
+        "kind": "solid",
+        "bg": "#382B33",
+        "on_bg": "#FFF8F6",
+        "on_bg_muted": "#F3E3E8",
+        "roles": {
+          "badge_accent": "#E9D4DD",
+          "cta_hover": "#FFF7F9"
+        }
+      },
+      {
+        "name": "badge_sage_pill",
+        "kind": "solid",
+        "bg": "#EAF2EE",
+        "on_bg": "#2A5241",
+        "on_bg_muted": "#3D6E59"
+      },
+      {
+        "name": "badge_rose_pill",
+        "kind": "solid",
+        "bg": "#FCECEF",
+        "on_bg": "#7A2E4B",
+        "on_bg_muted": "#964564"
+      },
+      {
+        "name": "badge_champagne_pill",
+        "kind": "solid",
+        "bg": "#F6EADF",
+        "on_bg": "#5C3E29",
+        "on_bg_muted": "#75543D"
+      }
+    ],
+    "accent": "#C989A2",
+    "on_accent": "#FFFFFF",
+    "palette": {
+      "bg_primary": "#FFF7F9",
+      "bg_soft_blush": "#F8DDE6",
+      "bg_rose_tint": "#F5D6E2",
+      "bg_pale_mauve": "#F3E3E8",
+      "surface_cream": "#FFF8F6",
+      "surface_champagne": "#F6EADF",
+      "rose_accent": "#DFA3B8",
+      "dusty_rose": "#C989A2",
+      "pale_mauve_border": "#E9D4DD",
+      "text_plum_dark": "#382B33",
+      "text_plum_muted": "#6E5A64",
+      "sage_green": "#5E8B77",
+      "sage_dark": "#3F6E5B",
+      "emerald_soft": "#4E7D68"
+    }
+  },
+  "typography": {
+    "font_family_heading": "Lora Variable, Playfair Display, serif",
+    "font_family_body": "Plus Jakarta Sans Variable, DM Sans, sans-serif",
+    "font_family_mono": "IBM Plex Mono, monospace",
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 22,
+      "h4": 18,
+      "body": 16,
+      "caption": 14
+    },
+    "letter_spacing": {
+      "headings": "tracking-tight",
+      "labels": "tracking-[0.18em] uppercase",
+      "body": "tracking-normal"
+    },
+    "font_imports": [
+      "@import \"@fontsource-variable/lora\";",
+      "@import \"@fontsource-variable/plus-jakarta-sans\";",
+      "@import \"@fontsource/ibm-plex-mono\";"
+    ]
+  },
+  "entry_surfaces": {
+    "/": "editorial split hero — poetic brand statement, pill badges & primary screening CTA left, organic glowing 3D-feel sculptural pink path composition right with live health metrics preview",
+    "/new-screening": "delicate multi-step guided intake canvas with progressive stage indicator and soft rose card container",
+    "/patients": "refined card-driven community registry with filter ribbon, risk indicators and patient dossier cards",
+    "/clinical-results": "risk-categorized clinical summary with filter tabs, vitals flags, and diagnostic action triggers",
+    "/care-coordination": "workflow kanban & status trajectory board for community referral follow-ups and NGO coordination",
+    "/outreach": "community health campaigns, rural screening van schedules, and localized education drives",
+    "/analytics": "editorial metric cards and soft rose Recharts data curves labeled clearly as synthetic demo data"
+  },
+  "layout_and_grids": {
+    "philosophy": "Editorial luxury composition with asymmetrical Tetris grids, generous whitespace (p-8 to p-16), soft organic rounded corners (rounded-3xl / rounded-2xl), delicate 1px borders in #E9D4DD, and soft tinted ambient drop shadows.",
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "header_style": "sticky top-0 z-50 backdrop-blur-xl bg-[#FFF7F9]/85 border-b border-[#E8CAD4]/60 px-6 py-4 flex items-center justify-between",
+    "footer_style": "bg-[#382B33] text-[#FFF8F6] pt-20 pb-12 px-6 sm:px-12 mt-24 rounded-t-[3rem] border-t border-[#6E5A64]/30"
+  },
+  "hero_sculptural_composition": {
+    "direction": "NO generic hospital photos. Render an original interactive/animated layered SVG + Canvas sculptural organic composition: flowing rose ribbons, softly pulsing glowing nodes symbolizing vital pathways, velvety frosted orbs with CSS blur-3xl, and floating glass stat cards ('94.2% Early Risk Catch Rate', '4,200+ Rural Screenings', '18 NGO Clinic Hubs')."
+  },
+  "navigation_structure": [
+    { "label": "Overview", "path": "/", "testId": "nav-link-home" },
+    { "label": "New Screening", "path": "/new-screening", "testId": "nav-link-screening" },
+    { "label": "Patient Registry", "path": "/patients", "testId": "nav-link-patients" },
+    { "label": "Clinical Results", "path": "/clinical-results", "testId": "nav-link-results" },
+    { "label": "Care Coordination", "path": "/care-coordination", "testId": "nav-link-coordination" },
+    { "label": "Community Outreach", "path": "/outreach", "testId": "nav-link-outreach" },
+    { "label": "Analytics", "path": "/analytics", "testId": "nav-link-analytics" }
+  ],
+  "components_and_pages": {
+    "pages": [
+      {
+        "name": "Home / Overview",
+        "path": "frontend/src/pages/Home.tsx",
+        "description": "Full-screen luxury editorial landing page with glowing abstract hero, interactive live risk simulator preview, 4-pillar prevention philosophy, real-time community impact stats, and quick-start screening CTA."
+      },
+      {
+        "name": "New Screening",
+        "path": "frontend/src/pages/NewScreening.tsx",
+        "description": "5-step luxury guided preventive intake workflow: 1. Patient Profile Selection/Creation, 2. Demographic & Community Context, 3. Vitals & Biometrics (BP, Glucose, BMI, SpO2), 4. Lifestyle & Risk Checklist, 5. Clinical Synthesis & Record Save."
+      },
+      {
+        "name": "Patient Registry",
+        "path": "frontend/src/pages/PatientRegistry.tsx",
+        "description": "Card-based editorial dossier grid (no boring tables) featuring search, community filter, risk status pills, vitals badges, and drawer for full patient health journey."
+      },
+      {
+        "name": "Clinical Results",
+        "path": "frontend/src/pages/ClinicalResults.tsx",
+        "description": "Risk triage board with hypertension, diabetes, maternal health risk tiers, recommendation actions, and direct referral creation."
+      },
+      {
+        "name": "Care Coordination",
+        "path": "frontend/src/pages/CareCoordination.tsx",
+        "description": "Referral pathway manager (Pending Review → Clinic Scheduled → Transport Arranged → Care Completed) with worker assignment and follow-up notes."
+      },
+      {
+        "name": "Outreach & Field Drives",
+        "path": "frontend/src/pages/Outreach.tsx",
+        "description": "Mobile health camp planner, rural route schedules, community health worker field logs, and maternal/chronic health awareness drives."
+      },
+      {
+        "name": "Analytics & Insights",
+        "path": "frontend/src/pages/Analytics.tsx",
+        "description": "Recharts visual analytics in rose/sage palette showing community risk distribution, referral completion velocity, and seasonal screening trends. Clearly marked synthetic demo data."
+      }
+    ],
+    "shared_components": [
+      { "name": "Navbar", "path": "frontend/src/components/Navbar.tsx" },
+      { "name": "Footer", "path": "frontend/src/components/Footer.tsx" },
+      { "name": "SculpturalHeroVisual", "path": "frontend/src/components/SculpturalHeroVisual.tsx" },
+      { "name": "SyntheticDataBanner", "path": "frontend/src/components/SyntheticDataBanner.tsx" },
+      { "name": "MetricPill", "path": "frontend/src/components/MetricPill.tsx" },
+      { "name": "PatientCard", "path": "frontend/src/components/PatientCard.tsx" }
+    ]
+  },
+  "motion_and_interactions": {
+    "style": "Gentle, weighted, organic, luxury fluidity. Staggered fade-up entrances, subtle floating orbs, smooth tab transitions, and crisp button scale-press.",
+    "hover_rules": "Cards subtly lift with -translate-y-1 and shadow-lg with tinted rose glow rgba(201,137,162,0.2). Buttons ease background into deeper rose plum with text color high contrast guaranteed.",
+    "transition_defaults": "transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, background-color 0.2s ease, border-color 0.2s ease"
+  },
+  "accessibility_rules": {
+    "contrast_guarantee": "Deep plum #382B33 text on #FFF7F9 yields 11.2:1 (exceeds WCAG AAA). Muted #6E5A64 on #FFF7F9 yields 5.8:1 (exceeds WCAG AA 4.5:1). Sage text #2A5241 on #EAF2EE yields 6.4:1.",
+    "interactive_elements": "Explicit focus rings: focus-visible:ring-2 focus-visible:ring-[#C989A2] focus-visible:outline-none.",
+    "testing_attributes": "All buttons, inputs, links, tabs, and status cards MUST have unique data-testid attributes."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Strictly follow the Pink Editorial aesthetic. Background MUST be blush/rose/cream tint (#FFF7F9, #F8DDE6, #F5D6E2), never gray or blue.",
+    "Do NOT use generic hospital stock photos for hero. Use the interactive 3D/organic sculptural SVG component.",
+    "Headings MUST use refined serif typography (Lora / Playfair Display) with tracking-tight. Body copy in clean modern sans.",
+    "Never make a boring admin table. Build elegant patient cards and editorial dossiers.",
+    "Every page must load smoothly with fallback mock data if backend query is in loading or static state.",
+    "All interactive elements must include kebab-case data-testid attributes."
+  ]
+}
